@@ -35,7 +35,7 @@ class WebAppBar extends StatelessWidget {
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(primary: Colors.white),
                   child: const Text('Register',
-                      style: TextStyle(color: Colors.black))))
+                      style: TextStyle(color: Colors.black)))),
         ]));
   }
 }
