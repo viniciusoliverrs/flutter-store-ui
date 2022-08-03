@@ -17,6 +17,7 @@ class CourseItem extends StatelessWidget {
         const Expanded(
           child: AutoSizeText(
             "Dell G15 15.6 Inch Laptop - Intel Core i7-7700HQ - 8GB RAM - 1TB HDD - Windows 10 Home",
+            minFontSize: 4,
             style: TextStyle(
                 fontSize: 14, color: Colors.white, fontWeight: FontWeight.bold),
           ),

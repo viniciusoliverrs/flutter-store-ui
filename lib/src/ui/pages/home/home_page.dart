@@ -32,10 +32,10 @@ class HomePage extends StatelessWidget {
             child: ConstrainedBox(
               constraints: const BoxConstraints(maxWidth: 1400),
               child: ListView(
-                children: const [
-                  TopSection(),
+                children: [
+                  const TopSection(),
                   AdvantagesSection(),
-                  CoursesSelection(),
+                  const CoursesSelection(),
                 ],
               ),
             ),
